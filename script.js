@@ -1,5 +1,5 @@
 const apiKey =
-  "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"; //api key
+  "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";
 
 const institutionData = `
 St Joseph Convent School was founded in 1950 by OUR LADY OF PROVIDENCE. 
@@ -79,3 +79,4 @@ function speak(text) {
   utterance.rate = 1; // normal speed
   speechSynthesis.speak(utterance);
 }
+

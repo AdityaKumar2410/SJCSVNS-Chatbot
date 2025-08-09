@@ -79,7 +79,3 @@ function speak(text) {
   utterance.rate = 1; // normal speed
   speechSynthesis.speak(utterance);
 }
-document.addEventListener("contextmenu", function(event) {
-      event.preventDefault();
-      alert("Right-click is disabled on this page!");
-    });
